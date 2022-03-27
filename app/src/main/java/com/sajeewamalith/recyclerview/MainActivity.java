@@ -9,7 +9,9 @@ import android.os.Bundle;
 public class MainActivity extends AppCompatActivity {
     RecyclerView r1;
     String s1[],s2[];
-    int imageResource[] ={R.drawable.cat_icon,R.drawable.dog_icon,R.drawable.rat,R.drawable.rabbit,R.drawable.pigeon,R.drawable.snake,R.drawable.elephant,R.drawable.cow,};
+    int imageResource[] ={R.drawable.cat_icon,R.drawable.dog_icon,
+            R.drawable.rat,R.drawable.rabbit,R.drawable.pigeon,
+            R.drawable.snake,R.drawable.elephant,R.drawable.cow,};
 
     MyOwnAdapter ad;
 
